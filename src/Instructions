@@ -1,0 +1,42 @@
+Baseball Game Simulator – We need to create a program that generates a random baseball game between 2 teams. You need to name both teams and all players (whatever you like). This is an individual project (no pairing).
+
+Rules of the game:
+1.	2 teams – 9 players
+2.	Each game – 9 innings (one inning represents a chance for each team to bat)
+3.	Each team has three outs
+4.	Runner advance proportionally to whatever is hit
+
+Probabilities:
+1.	Single – 17%
+2.	Double – 7%
+3.	Triple – 2%
+4.	Home Run – 4%
+5.	Outs (strikeouts, ground outs and fly outs) – 70%
+6.	Runners advance proportionally based on what’s hit
+a.	Example: if runner is in first base and hitter hits a double then runner at first base will move to third and hitter to double.
+b.	Example: if runner is at third and another in second and hitter hits a single then runner at third scores, runner at second moves to third and hitter moves to first.
+Scenarios:
+1.	If visiting team (the team that hits first in the inning) finishes the 9th inning below in the scores, then home team win the game and there is no need to play the last ½ of the 9th inning (no need for home team to bat if they already won)
+2.	Extra inning will be played if team is tied at the end of the 9th
+a.	Each team will have a chance to hit and complete the inning
+
+Program output:
+1.	Summary: information about hits during an inning per each team
+a.	Example: INNING 5
+Team A: Player 1 hit single, Player 3 hit home run, Player 1 scores run, Player 3 scores run
+Team B: Player 2 hit single, Player 4 hits double
+
+2.	Final Score: give final information about final score and the winner
+a.	Example:
+Team A – 5
+Team B – 3
+
+Evaluation:
+1.	Program runs and execute – 70%
+2.	Use of Encapsulation – 5%
+3.	Use of Inheritance – 10%
+4.	Use of Collections (double arrays, ArrayList, etc) – 10%
+5.	Code presentation (comments, indentation, etc) – 5%
+
+Hints:
+

@@ -4,7 +4,7 @@
 public class Innings {
 
      public static void main(String[] args) {
-         //  determines outs and bases from random numbers
+         //  determines outs and bases from random number
          Innings myInnings = new Innings();
          int score = myInnings.randomNumber(100);
          if (score <= 70)

@@ -4,11 +4,12 @@
 public class Teams {
 
     Teams myTeams = new Teams();
-    private String[] HomeTeam = {"Phillip","Charles", "Issac","Danny",
+    private String[] HomeTeam = {"Home Depot"};
+    private String[] HomePlayers = {"Phillip","Charles", "Issac","Danny",
                 "Mark", "Glenn", "Reggie", "Juanita", "Dan"};
 
-
-    private String[] VisitingTeam = {"Arnold Palmer","Peter Pan", "Charlie Brown","Snoopy",
-            "Doonesbury", "Donald Trump", "Hillary Clinton", "Blondie", "Haggar"};
+    private String[] VisitingTeam = {"The Marvels"};
+    private String[] VisitingPlayers = {"Wolverine","Emma Frost", "Mystique","Deadpool",
+            "Magneto", "Iron Man", "Hulk", "Black Widow", "X-23"};
 
 }

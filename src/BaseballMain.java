@@ -1,3 +1,4 @@
+import javax.rmi.CORBA.Util;
 import javax.swing.plaf.nimbus.State;
 import java.util.ArrayList;
 
@@ -7,6 +8,11 @@ import java.util.ArrayList;
 public class BaseballMain {
 
     public static void main(String[] args) {
+        Utilities myUtil = new Utilities();
+        String atBatResult = myUtil.atBat();
+
+        System.out.println("This is the result in this run "+atBatResult);
+
       //  String[][] numbers = new String[9][9];
         ArrayList players;
         players = new ArrayList();

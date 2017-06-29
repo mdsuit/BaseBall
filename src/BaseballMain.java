@@ -10,35 +10,34 @@ public class BaseballMain {
     public static void main(String[] args) {
         Utilities myUtil = new Utilities();
         String atBatResult = myUtil.atBat();
-
-        System.out.println("This is the result in this run "+atBatResult);
-
-      //  String[][] numbers = new String[9][9];
-        ArrayList players;
-        players = new ArrayList();
-        players.size();
-        players.add("Player 1");
-        players.add("Player 2");
-        players.add("Player 3");
-        players.add("Player 4");
-        players.add("Player 5");
-        players.add("Player 6");
-        players.add("Player 7");
-        players.add("Player 8");
-        players.add("Player 9");
-        System.out.println();
+        // need to get batter from list and print out should read "Batter" - result
+        System.out.println("This batter's result - "+atBatResult);
 
 
-        /*
-        for (int row = 0; row < players.length; row++) {
-            for (int col = 0; col < players[row].length; col++) {
-                players[row][col] = String.valueOf(row) + String.valueOf(col);
-                System.out.print(players[row][col] + " ");
-            }
-            System.out.println(" ");
-            */
-        }
+     Team homeTeam = new Team("Home Depot");
+     Team visitingTeam = new Team("Marvels");
+
+     homeTeam.addPlayer(new Player("Phillip"));
+     homeTeam.addPlayer(new Player("Charles"));
+     homeTeam.addPlayer(new Player("Issac"));
+     homeTeam.addPlayer(new Player("Danny"));
+     homeTeam.addPlayer(new Player("Mark"));
+     homeTeam.addPlayer(new Player("Glenn"));
+     homeTeam.addPlayer(new Player("Nathan"));
+     homeTeam.addPlayer(new Player("Juanita"));
+     homeTeam.addPlayer(new Player("Dan"));
+     
+     visitingTeam.addPlayer(new Player("Wolverine"));
+     visitingTeam.addPlayer(new Player("Emma Frost"));
+     visitingTeam.addPlayer(new Player("Mystique"));
+     visitingTeam.addPlayer(new Player("Deadpool"));
+     visitingTeam.addPlayer(new Player("Magneto"));
+     visitingTeam.addPlayer(new Player("Iron Man"));
+     visitingTeam.addPlayer(new Player("Hulk"));
+     visitingTeam.addPlayer(new Player("Black Widow"));
+     visitingTeam.addPlayer(new Player("X-23"));
 
     }
+}
 
 

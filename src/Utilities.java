@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Created by MDS1728 on 6/1/2017.
  */
@@ -36,5 +38,13 @@ public class Utilities {
 
 
         //Prints Array, Double Array or array list}
+    }
+
+    public void printTeam(Team theTeam ){
+        theTeam.getPlayers();
+        ArrayList<Player> thePlayers = theTeam.getPlayers();
+        for (Player p : thePlayers) {
+            System.out.print(p.getName() +", ");
+        }
     }
 }

@@ -11,7 +11,7 @@ public class Team {
 
     public Team(String name) {
         this.name = name;
-
+        this.players = new ArrayList<>();
 
     }
 
@@ -25,5 +25,9 @@ public class Team {
     public void addPlayer(Player newPlayer){
     this.players.add(newPlayer);
 
+    }
+
+    public ArrayList<Player> getPlayers() {
+        return players;
     }
 }

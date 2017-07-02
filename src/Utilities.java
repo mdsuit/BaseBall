@@ -45,6 +45,7 @@ public class Utilities {
         ArrayList<Player> thePlayers = theTeam.getPlayers();
         for (Player p : thePlayers) {
             System.out.print(p.getName() +", ");
+
         }
     }
 }

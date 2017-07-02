@@ -30,6 +30,7 @@ public class BaseballMain {
      homeTeam.addPlayer(new Player("Dan"));
 
         myUtil.printTeam(homeTeam);
+        System.out.println();
       //  System.out.println("Home Team " +homeTeam.getPlayers());
      
      visitingTeam.addPlayer(new Player("Wolverine"));

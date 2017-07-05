@@ -28,8 +28,9 @@ public class BaseballMain {
      homeTeam.addPlayer(new Player("Nathan"));
      homeTeam.addPlayer(new Player("Juanita"));
      homeTeam.addPlayer(new Player("Dan"));
-
+        System.out.println("Team Home Depot: ");
         myUtil.printTeam(homeTeam);
+        System.out.println();
       //  System.out.println("Home Team " +homeTeam.getPlayers());
      
      visitingTeam.addPlayer(new Player("Wolverine"));
@@ -41,7 +42,7 @@ public class BaseballMain {
      visitingTeam.addPlayer(new Player("Hulk"));
      visitingTeam.addPlayer(new Player("Black Widow"));
      visitingTeam.addPlayer(new Player("X-23"));
-
+        System.out.println("Team Marvel: ");
         myUtil.printTeam(visitingTeam);
       //  System.out.println("Visting Team " +visitingTeam.getPlayers());
 

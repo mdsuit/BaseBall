@@ -11,6 +11,10 @@ public class BaseballGame {
     //Loops for 9 innings or more if tied call to utilities to print
 
     //generateInning
+    Utilities myUtil = new Utilities();
+    String tInning = myUtil.tInning ();
+    String bInning = myUtil.bInning ();
+
     //Make two calls to complete full inning
     //Store positive info from half inning call
 
